@@ -59,7 +59,8 @@ li {
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+    margin-bottom: 3em;
+} 
 
 #email-bar h2 {
     margin-bottom: .75em;
@@ -79,6 +80,37 @@ li {
     width: 100%;
     height: 2.5em;
     margin: .75em 0;
+}
+
+
+#squares {
+    display: grid;
+    justify-content: center;
+}
+
+
+#benefits{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.5em;
+    margin-top: 2em;
+}
+
+#icon i {
+    display: flex;
+    color: #fca402;
+    width: 3em;
+    font-size: 4em;
+} 
+
+#text h2 {
+    font-size: 2.5em;
+}
+#text p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3em;
+    max-width: 960px;
 }
 
 @media screen and (max-width: 560px) {
