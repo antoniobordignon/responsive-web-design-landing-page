@@ -168,9 +168,33 @@ li {
     text-align: center;
 }
 
+footer {
+    background-color: rgba(0, 0, 0, 8%);
+    max-width: 65em;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 2em;
+  }
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+footer li{
+    margin-left: 1.5em;
+    margin-bottom: .5em;
+}
 
 
-
+footer span {
+    color:gray
+}
 
 
 
