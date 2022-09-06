@@ -83,7 +83,9 @@ li {
     max-width: 13em;
     width: 100%;
     height: 2.5em;
-    margin: .75em 0;
+    margin: .75em auto;
+    display: grid;
+
 }
 
 
@@ -123,10 +125,48 @@ li {
     margin-top: 3em;
 }
 
-  
+
+#pricing {
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#pricing div {
+    border: 1px solid black;
+    margin: 10px;
+    width: calc(40% / 3);
+}
+
+#pricing h3 {
+    font-size: 1.5em;
+    display: flex;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 8%);
+    padding: 15px 3.5em;
+    width: 100%;
+}
 
 
+#pricing span {
+    margin: 20px auto;
+    display: block;
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0 5px 0;
+}
 
+#pricing ul {
+    margin:20px auto;
+    font-size: 1.25em;
+}
+
+#pricing li {
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 
 
